@@ -7,7 +7,7 @@
 # GNU Radio Python Flow Graph
 # Title: Not titled yet
 # Author: student
-# GNU Radio version: 3.8.1.0
+# GNU Radio version: 3.8.2.0
 
 from distutils.version import StrictVersion
 
@@ -226,8 +226,8 @@ class ook_loopback(gr.top_block, Qt.QWidget):
         # Connections
         ##################################################
         self.connect((self.analog_const_source_x_0, 0), (self.blocks_float_to_complex_0, 1))
-        self.connect((self.blocks_complex_to_real_0, 0), (self.blocks_multiply_xx_0, 1))
         self.connect((self.blocks_complex_to_real_0, 0), (self.blocks_multiply_xx_0, 0))
+        self.connect((self.blocks_complex_to_real_0, 0), (self.blocks_multiply_xx_0, 1))
         self.connect((self.blocks_delay_0, 0), (self.blocks_unpacked_to_packed_xx_0, 0))
         self.connect((self.blocks_delay_1, 0), (self.epy_block_0_0_0, 1))
         self.connect((self.blocks_delay_1, 0), (self.qtgui_time_sink_x_0, 1))
