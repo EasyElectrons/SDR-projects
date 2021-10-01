@@ -12,4 +12,4 @@ These projects are a portfolio of SDR related work done for academic (degree-rel
 
 Please visit the paper `ECE1898_SDR_Projects.pdf`.  It provides in-depth explanation on each component of the projects covered.
 
-DISCLAIMER: This paper was completed as part of an undergraduate-level independent study for credit at the University of Pittsburgh.  The logo on the front page is owned by the University of Pittsburgh (Pitt).  Its presence does not imply ownership by Pitt, but merely represents the author's association with Pitt at the time of writing.
+DISCLAIMER: This paper was completed as part of an undergraduate-level independent study for credit at the University of Pittsburgh.  The logo on the front page is owned by the University of Pittsburgh (Pitt).  Its presence does not imply Pitt's ownership of any part of the project, or the contents of this repository, but merely represents the author's association with Pitt at the time of writing.
